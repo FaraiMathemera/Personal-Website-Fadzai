@@ -10,8 +10,6 @@ Tested with:
 
 ## Set up
 
-You may wish to fork this repository or remove my remote origin and add your own. Go [here](https://help.github.com/articles/changing-a-remote-s-url/) for more information on changing remotes.  
-
 1. Install dependencies, run the following commands:
 
     ```bash
