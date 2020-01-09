@@ -38,12 +38,10 @@ You may wish to fork this repository or remove my remote origin and add your own
 ## Contributors
 
 * [@mldangelo](https://github.com/mldangelo)
-* [@typpo](https://github.com/typpo)
 
 ## Acknowledgements
 
-* Special thanks to [@typpo](https://github.com/typpo) for tirelessly answering all of my node.js and react questions.
-* Template based on [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
+* Template based on [@mldangelo](https://github.com/mldangelo) .
 
 ## License
 
