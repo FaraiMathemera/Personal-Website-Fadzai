@@ -19,21 +19,24 @@
 	}
 
 	.education {
-
 		.title {
 			text-align: center;
-			margin-bottom: 2em;
+			margin-bottom: 5em;
+			margin-top: 3em;
 		}
 	}
 	.experience {
 		.title {
 			text-align: center;
+			margin-bottom: 5em;
+			margin-top: 5em;
 		}
 		.job {
-			margin: 1em;
-			p{
+			margin: 1.2em;
+			.p{
 				margin: 0;
 			}
+
 		}
 	}
 
@@ -45,6 +48,7 @@
 					font-size: .9em;
 			}
 		}
+		margin-bottom: 3.5em;
 	}
 
 	.courses {

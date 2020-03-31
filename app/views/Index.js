@@ -9,14 +9,14 @@ const Index = () => (
       <header>
         <div className="title">
           <h2><Link to="/">Fadzai Kadzinga</Link></h2>
-          <p>Problem-solver, Compassionate, enthusiastic.</p>
+          <p>Problem-solver, Compassionate, Enthusiastic.</p>
         </div>
       </header>
-      <p> Welcome to <a href="fadzaikadzinga.com"> fadzaikadzinga.com </a> . Feel free to find out more <Link to="/about">about me</Link>,
+      <p> Welcome to <a href="fadzaikadzinga.co.za"> fadzaikadzinga.co.za </a>.<br/>
+       Feel free to find out more <Link to="/about">about me</Link>,
          and what I do, or you can have a look at my {' '}
-        <Link to="/resume">Resume</Link>, {' '}
-        <Link to="/projects">Posters</Link>, {' '}
-        view <Link to="/stats">Stats</Link>. {' '}
+        <Link to="/resume">resume</Link>, {' '}
+        <Link to="/projects">posters</Link>. {' '} <br/>
         You can also get in  <Link to="/contact">contact</Link> with me.
       </p>
     </article>

@@ -3,7 +3,7 @@ const positions = [
   {
     company: 'University of Cape Town, Chemical Engineering Department',
     position: 'Teaching assistant: Research communication and methodology',
-    link: 'http://www.chemeng.uct.ac.za/',
+    link: 'http://ceber.uct.ac.za',
     daterange: 'January 2018 - Present',
     points: [
       'Provide academic and administrative support for a postgraduate course that introduces new postgraduate students to good research practices such as the scientific method, critical thinking and science communication.',
@@ -11,7 +11,7 @@ const positions = [
   }, {
     company: 'University of Cape Town, Chemical Engineering Department',
     position: 'Ad hoc assistant lecturer: Separation processes, Mass transfer ',
-    link: 'http://www.chemeng.uct.ac.za/',
+    link: 'http://ceber.uct.ac.za/',
     daterange: 'January 2016 – June 2018',
     points: [
       'Lecture a ‘Boot Camp’ to undergraduate students who have performed poorly in the course and are then given an opportunity to consolidate the material over an intensive 4-day programme, before retaking the exam.',
@@ -35,8 +35,8 @@ const positions = [
     link: 'http://www.chemeng.uct.ac.za/',
     daterange: '2013-2015',
     points: [
-      'Developed end to end machine learning pipeline to train visual classifiers from keywords using Node.JS, Express, Keystone, MongoDB, AWS, S3, Caffe, and other technologies.',
-      'Received Series A term sheets for 20M+ valuations.',
+      '.',
+      '.',
     ],
   }, {
     company: 'University of Cape Town, Hydrometallurgy Research Department',
@@ -46,7 +46,7 @@ const positions = [
     points: [
       'Conducted a feasibility study on a model sulphide heap bioleach reactor. ',
     ],
-  },  
+  },
 ];
 
 export default positions;
