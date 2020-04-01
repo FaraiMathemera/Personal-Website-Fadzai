@@ -21,12 +21,12 @@ const Nav = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Fadzai Kadzinga.
-            I am a PhD candidate in the<a href="http://www.ceber.uct.ac.za/"> Centre for Bioprocess Engineering</a> at the <a href="https://www.uct.ac.za/"> University of Cape Town, </a> expecting to complete my thesis in the first quarter of 2020.
-            My project is based on improving a process for the bioremediation of industrial wastewater. I use microbial genetic information to inform design choices, and have shown that this deliberate approach results in a more efficient process that produces better quality water.
+            I am an engineer and researcher sharing my knowledge and expertise to inform process design and development.
+            The goal is sustainable development that improves people's quality of life.
       </p>
       <ul className="actions">
         <li>
-          {window.location.pathname !== `${BASE_PATH}/resume` ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {window.location.pathname !== `${BASE_PATH}/resume` ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/resume" className="button">About Me</Link>}
         </li>
       </ul>
     </section>
@@ -41,7 +41,7 @@ const Nav = () => (
           </li>
         ))}
       </ul>
-      <p className="copyright">&copy; Farai Mathemera <Link to="/">faraimathemera.com</Link>.</p>
+      <p className="copyright">&copy; faraimathemera.co.za</p>
     </section>
   </section>
 );
