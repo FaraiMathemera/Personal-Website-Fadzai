@@ -17,13 +17,15 @@ class Main extends Component {
   }
 
   componentDidMount() {
-    if (NODE_ENV === 'production') {
-      ReactGA.set({
-        page: window.location.pathname,
-      });
+    if (NODE_ENV === 'development') {
+      ReactGA.set({page: window.location.pathname});
+      //ReactGA.set({page: window.mediumWidget()});
       ReactGA.pageview(window.location.pathname);
+      //ReactGA.pageview(window.mediumWidget());
     }
+
   }
+
 
   render() {
     return (
@@ -34,7 +36,8 @@ class Main extends Component {
           {this.props.children}
         </div>
         {!this.props.fullPage && <Nav />}
-      </div>);
+      </div>
+    );
   }
 }
 
